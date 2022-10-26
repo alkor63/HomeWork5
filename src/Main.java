@@ -25,7 +25,6 @@ public class Main {
         int yearNum;
         yearNum = 2100;
         double yearDiv4 = yearNum/4.0;
-//       System.out.println("yearDiv4 = " + yearDiv4);
         if (yearDiv4 % 1 != 0.0) System.out.println(yearNum + "год не високосный");
         else if (yearDiv4 % 25 == 0.0 && yearDiv4 % 100 != 0.0) System.out.println(yearNum + "год не високосный");
                 else System.out.println(yearNum + " - високосный год");
